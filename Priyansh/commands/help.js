@@ -115,7 +115,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   const randomQuote = randomQuotes[Math.floor(Math.random() * randomQuotes.length)];
 
-  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX: / 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}`;
+  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX: - 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}`;
   
 
   return api.sendMessage(msg, threadID, async (error, info) => {

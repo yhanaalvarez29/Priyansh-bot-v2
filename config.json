@@ -11,12 +11,12 @@
         "sim.js"
     ],
     "eventDisabled": [
-        "join.js"
+        "Thread.js"
     ],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "YhanaBot",
+    "BOTNAME": "Aeron Ai",
     "PREFIX": "-",
     "ADMINBOT": [
         "61564459952029"
@@ -65,11 +65,11 @@
         "WOLFRAM": "T8J8YV-H265UQ762K"
     },
     "menu": {
-        "autoUnsend": true,
+        "autoUnsend": false,
         "delayUnsend": 55
     },
     "rankup": {
-        "autoUnsend": true,
+        "autoUnsend": false,
         "unsendMessageAfter": 10
     },
     "rname": {

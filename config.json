@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Aeron Ai",
+    "BOTNAME": "Kyla Bot",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100063138152006"
+        "61575608187669"
     ],
     "NDH": [
-        "100063138152006"
+        "61575608187669"
     ],
     "DATABASE": {
         "sqlite": {

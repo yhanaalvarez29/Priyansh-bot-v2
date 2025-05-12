@@ -6,7 +6,7 @@ module.exports.config = {
 	description: "Beginner's Guide",
 	commandCategory: "system",
 	usages: "[Name module]",
-	cooldowns: 5
+	cooldowns: 0
 };
 
 module.exports.handleEvent = function ({ api, event }) {
@@ -28,7 +28,7 @@ module.exports.handleEvent = function ({ api, event }) {
 
 	const prefix = (threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX;
 
-	return api.sendMessage(`🔰 ${command.config.name} 🔰\n${command.config.description}\n\n❯ Using: ${prefix}${command.config.name} ${(command. config.usages) ? command.config.usages : ""}\n❯ Group: ${command.config.commandCategory}\n❯ Timeout: ${command.config.cooldowns} seconds(s)\n❯ Permissions: ${((command.config.hasPermssion == 0) ? "User" : (command.config.hasPermssion == 1) ? "Administrator" : "Bot operator" )}\n\ n» Module code by ${command.config.credits} «`, threadID, messageID);
+	return api.sendMessage(`🔱 ${command.config.name} 🔱\n${command.config.description}\n\n❯ Using: ${prefix}${command.config.name} ${(command. config.usages) ? command.config.usages : ""}\n❯ Group: ${command.config.commandCategory}\n❯ Timeout: ${command.config.cooldowns} seconds(s)\n❯ Permissions: ${((command.config.hasPermssion == 0) ? "User" : (command.config.hasPermssion == 1) ? "Administrator" : "Bot operator" )}\n\ n» Module code by ${command.config.credits} «`, threadID, messageID);
 }
 
 module.exports.run = function({ api, event, args }) {
@@ -46,7 +46,7 @@ module.exports.run = function({ api, event, args }) {
 		}
 		group.forEach(commandGroup => msg += `🔰 ${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)} 🔰\n${commandGroup.cmds.join(', ' )}\n\n`);
 return api.sendMessage(msg + `[ Use: "${(threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX}help each command above" for detailed usage! | There are currently ${commands.size} commands available on this bot.
-👉 Contact admin NaCl for more information about bot | https://www.facebook.com/icotacteeee ]
+👉 Contact admin NaCl for more information about bot | https://www.facebook.com/jhonuel.yasis ]
 📣Help will automatically remove after 60s`, event.threadID , (err, info) => setTimeout ( () => { api.unsendMessage(info.messageID) } , 60000))
 
 	}

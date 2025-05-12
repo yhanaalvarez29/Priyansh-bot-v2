@@ -11,18 +11,18 @@
         "sim.js"
     ],
     "eventDisabled": [
-        "Thread.js"
+        ""
     ],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "Aeron Ai",
-    "PREFIX": "-",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "61564459952029"
+        "100063138152006"
     ],
     "NDH": [
-        "61564459952029"
+        "100063138152006"
     ],
     "DATABASE": {
         "sqlite": {

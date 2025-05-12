@@ -1,4 +1,4 @@
-module.exports.config = {
+mlmodule.exports.config = {
 	name: "casino",
 	version: "0.0.1",
 	hasPermssion: 0,
@@ -22,7 +22,14 @@ module.exports.run = async function ({ api, event, args, Currencies, Users }) {
         request('https://raw.githubusercontent.com/tdunguwu/key/main/roulette.jpg').pipe(createWriteStream(__dirname + '/cache/casio.jpg'));
       }
   if(!choose){
-    var msg =  {body: `[ CỜ BẠC ]\n=> 1.Tài Xỉu\n=> 2.Chẵn Lẻn\n=> 3.Lô Đề\n=> 4.Hiệu Số\n=> 5.Slot\nreply tin nhắn này để xem hướng dẫn cách chơi`, attachment : [
+    var msg =  {body: `GAMBLING
+=> 1. Over/Under
+=> 2. Even/Odd
+=> 3. Lottery 
+=> 4. Difference 
+=> 5. Slots
+
+Reply to this message to see instructions on how to play.`, attachment : [
       require("fs").createReadStream(__dirname + "/cache/casio.jpg")
     ]}
    return api.sendMessage(msg,  threadID, (error, info) => {

@@ -1,5 +1,5 @@
 {
-    "language": "en",
+    "language": "english",
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
@@ -8,7 +8,7 @@
     "allowInbox": false,
     "autoClean": true,
     "commandDisabled": [
-        "sim.js"
+        ""
     ],
     "eventDisabled": [
         ""
@@ -105,7 +105,7 @@
     },
     "help": {
         "autoUnsend": false,
-        "delayUnsend": 120
+        "delayUnsend": 0
     },
     "pokemon": {
         "APIKEY": ""
@@ -211,8 +211,8 @@
         "APIKEY": "tuandz"
     },
     "help3": {
-        "autoUnsend": true,
-        "delayUnsend": 300
+        "autoUnsend": false,
+        "delayUnsend": 0
     },
     "job": {
         "cooldownTime": 5000
@@ -229,6 +229,6 @@
     },
     "help2": {
         "autoUnsend": false,
-        "delayUnsend": 300
+        "delayUnsend": 0
     }
 }

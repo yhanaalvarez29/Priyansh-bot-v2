@@ -47,7 +47,7 @@ module.exports.run = function({ api, event, args }) {
 		group.forEach(commandGroup => msg += `🔰 ${commandGroup.group.charAt(0).toUpperCase() + commandGroup.group.slice(1)} 🔰\n${commandGroup.cmds.join(', ' )}\n\n`);
 return api.sendMessage(msg + `[ Use: "${(threadSetting.hasOwnProperty("PREFIX")) ? threadSetting.PREFIX : global.config.PREFIX}help each command above" for detailed usage! | There are currently ${commands.size} commands available on this bot.
 👉 Contact admin NaCl for more information about bot | https://www.facebook.com/jhonuel.yasis ]
-📣Help will automatically remove after 60s`, event.threadID , (err, info) => setTimeout ( () => { api.unsendMessage(info.messageID) } , 60000))
+📣Help will automatically i love you`, event.threadID , (err, info) => setTimeout ( () => { api.unsendMessage(info.messageID) } , 60000))
 
 	}
 

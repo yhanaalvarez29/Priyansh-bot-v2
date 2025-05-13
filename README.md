@@ -1,4 +1,6 @@
 # MIRAI BOT V4
+🤔Whats New?
+ws3-fca 2.5.1 Version
 
 Welcome to **Mirai Bot V4**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
 
@@ -24,12 +26,12 @@ To install the bot, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/Priyansh-11/Priyansh-bot-v2.git
+    git clone https://github.com/alvarezyhana/Priyansh-bot-v2
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd Priyansh-bot-v2
+    cd Johnbot-v2
     ```
 
 3. **Install the dependencies**:

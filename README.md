@@ -73,18 +73,7 @@ Contributions are welcome! If you'd like to improve the bot, feel free to submit
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-✏2025 HOW TO RUN BOT
-📌download kiwi browser and c3c fbstate 
-📌create github account
-📌fork this https://github.com/alvarezyhana/Priyansh-bot-v2
-📌change config.json 
-📌put your fbstate from Priyansh.json
-📌create account render.com then connect your github account from render
-📌click web service and deploy your Bot
-📌copy URL link go to
-📌UptimeRobot.com register your account 
-📌Create Monitor put your URL LINk
-
 ⚙FEEDBACK: https://www.facebook.com/jhonuel.yasis
+
 
 

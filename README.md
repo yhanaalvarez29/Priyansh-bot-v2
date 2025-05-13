@@ -1,6 +1,6 @@
-# Priyansh Bot v2
+# MIRAI BOT V4
 
-Welcome to **Priyansh Bot v2**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
+Welcome to **Mirai Bot V4**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
 
 ## Table of Contents
 
@@ -46,10 +46,10 @@ To install the bot, follow these steps:
 
 This project supports two FCA (Facebook Chat API) options:
 
-1. **fca-priyansh**
-2. **priyanshu-fca** (Recommended)
+1. **fca-john**
+2. **john-fca** (Recommended)
 
-You can choose to use either of these options, but it's recommended to use **priyanshu-fca** for the best performance and stability.
+You can choose to use either of these options, but it's recommended to use **fca-john** for the best performance and stability.
 
 ## Usage
 
@@ -66,3 +66,19 @@ Contributions are welcome! If you'd like to improve the bot, feel free to submit
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+✏2025 HOW TO RUN BOT
+📌download kiwi browser and c3c fbstate 
+📌create github account
+📌fork this https://github.com/alvarezyhana/Priyansh-bot-v2
+📌change config.json 
+📌put your fbstate from Priyansh.json
+📌create account render.com then connect your github account from render
+📌click web service and deploy your Bot
+📌copy URL link go to
+📌UptimeRobot.com register your account 
+📌Create Monitor put your URL LINk
+
+⚙FEEDBACK: https://www.facebook.com/jhonuel.yasis
+
+

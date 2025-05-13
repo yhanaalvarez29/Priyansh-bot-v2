@@ -108,7 +108,7 @@
         "delayUnsend": 0
     },
     "pokemon": {
-        "APIKEY": ""
+        "APIKEY": "https://beta.pokeapi.co/graphql/v1beta"
     },
     "adminUpdate": {
         "autoUnsend": true,
